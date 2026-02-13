@@ -44,7 +44,7 @@ export function DashboardShell({ children, user }: DashboardShellProps) {
       {/* Mobile Sidebar Overlay */}
       {isSidebarOpen && (
         <div
-          className="fixed inset-0 z-40 bg-background/80 backdrop-blur-sm md:hidden"
+          className="fixed inset-0 top-16 z-40 bg-background/80 backdrop-blur-sm md:hidden"
           onClick={() => setIsSidebarOpen(false)}
         />
       )}
@@ -52,7 +52,7 @@ export function DashboardShell({ children, user }: DashboardShellProps) {
       {/* Sidebar */}
       <aside
         className={cn(
-          "fixed inset-y-0 left-0 z-50 w-64 border-r bg-card transition-transform duration-200 ease-in-out md:translate-x-0 md:static md:block",
+          "fixed left-0 top-16 bottom-0 z-40 w-64 border-r bg-card transition-transform duration-200 ease-in-out md:translate-x-0 md:static md:block",
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         )}
       >
