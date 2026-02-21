@@ -19,8 +19,10 @@ const navItems: NavItem[] = [
     { title: "About", href: "/about" },
     { title: "Library", href: "/library" },
     { title: "Coaching Centre", href: "/coaching-centre" },
+    { title: "Expert Faculty", href: "/coaching-centre/faculty" },
     { title: "Training Classes", href: "/training" },
     { title: "Syllabus", href: "/syllabus" },
+    { title: "NCERT Books", href: "/ncert-books" },
     { title: "Question Paper", href: "/papers" },
 ];
 

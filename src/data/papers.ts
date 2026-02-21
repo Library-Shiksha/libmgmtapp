@@ -43,6 +43,16 @@ export const papersData: Paper[] = [
         solutionUrl: "/papers/solutions/10th-maths-2025-sol.pdf",
         category: "Board Exam"
     },
-    // Generate the rest
-    ...generateMockProject(500)
+    {
+        id: "2",
+        title: "Class 10th - Mathematics",
+        class: "10th",
+        subject: "Mathematics",
+        year: "2024",
+        board: "CBSE",
+        paperUrl: "/papers/10th-maths-2024.pdf",
+        solutionUrl: "/papers/solutions/10th-maths-2024-sol.pdf",
+        category: "Board Exam"
+    }    // Generate the rest
+    // ...generateMockProject(500)
 ];

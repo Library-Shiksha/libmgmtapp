@@ -8,30 +8,12 @@ import { Button } from "@/components/ui/button";
 
 const syllabusData = [
     {
-        class: "12th",
+        class: "8th",
         subjects: [
-            { name: "Physics", description: "Comprehensive study of mechanics, electromagnetism, and optics." },
-            { name: "Chemistry", description: "In-depth look at organic, inorganic, and physical chemistry." },
-            { name: "Mathematics", description: "Advanced calculus, algebra, and statistics." },
-            { name: "Biology", description: "Detailed study of human physiology, genetics, and ecology." },
-        ]
-    },
-    {
-        class: "11th",
-        subjects: [
-            { name: "Physics", description: "Foundations of physical laws and motion." },
-            { name: "Chemistry", description: "Introduction to chemical bonding and stoichiometry." },
-            { name: "Mathematics", description: "Trigonometry, complex numbers, and logic." },
-            { name: "Biology", description: "Diversity in living organisms and cell structure." },
-        ]
-    },
-    {
-        class: "10th",
-        subjects: [
-            { name: "Science", description: "Combined study of physics, chemistry, and biology basics." },
-            { name: "Mathematics", description: "Algebra, geometry, and basic trigonometry." },
-            { name: "Social Science", description: "History, geography, political science, and economics." },
-            { name: "English", description: "Literature, grammar, and composition skills." },
+            { name: "Science", description: "Basic concepts of force, pressure, and microorganisms." },
+            { name: "Mathematics", description: "Rational numbers, exponents, and data handling." },
+            { name: "Social Science", description: "Our past, resources, and social life." },
+            { name: "English", description: "Enhancing communication and comprehension." },
         ]
     },
     {
@@ -44,12 +26,30 @@ const syllabusData = [
         ]
     },
     {
-        class: "8th",
+        class: "10th",
         subjects: [
-            { name: "Science", description: "Basic concepts of force, pressure, and microorganisms." },
-            { name: "Mathematics", description: "Rational numbers, exponents, and data handling." },
-            { name: "Social Science", description: "Our past, resources, and social life." },
-            { name: "English", description: "Enhancing communication and comprehension." },
+            { name: "Science", description: "Combined study of physics, chemistry, and biology basics." },
+            { name: "Mathematics", description: "Algebra, geometry, and basic trigonometry." },
+            { name: "Social Science", description: "History, geography, political science, and economics." },
+            { name: "English", description: "Literature, grammar, and composition skills." },
+        ]
+    },
+    {
+        class: "11th",
+        subjects: [
+            { name: "Physics", description: "Foundations of physical laws and motion." },
+            { name: "Chemistry", description: "Introduction to chemical bonding and stoichiometry." },
+            { name: "Mathematics", description: "Trigonometry, complex numbers, and logic." },
+            { name: "Biology", description: "Diversity in living organisms and cell structure." },
+        ]
+    },
+    {
+        class: "12th",
+        subjects: [
+            { name: "Physics", description: "Comprehensive study of mechanics, electromagnetism, and optics." },
+            { name: "Chemistry", description: "In-depth look at organic, inorganic, and physical chemistry." },
+            { name: "Mathematics", description: "Advanced calculus, algebra, and statistics." },
+            { name: "Biology", description: "Detailed study of human physiology, genetics, and ecology." },
         ]
     }
 ];
