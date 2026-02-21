@@ -62,16 +62,16 @@ export default function CoachingCentrePage() {
                             </div>
                         </div>
                     </div>
-                    <div className="relative aspect-video rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
+                    <div className="relative w-[250px] aspect-[3/4] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white mx-auto md:mx-0 bg-gray-100">
                         <img
                             src="/coaching-head.png"
                             alt="Coaching Centre"
-                            className="object-cover w-full h-full"
+                            className="w-full h-full object-cover object-top"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
+                        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex items-end p-6">
                             <div className="text-white">
-                                <p className="text-lg font-bold">Mr. Pavan Vir Singh</p>
-                                <p className="text-sm opacity-90">Founder & Head Mentor</p>
+                                <p className="text-base font-bold">Mr. Pavan Vir Singh</p>
+                                <p className="text-xs opacity-90 font-medium">Founder & Head Mentor</p>
                             </div>
                         </div>
                     </div>

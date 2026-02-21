@@ -20,12 +20,13 @@ const navItems: NavItem[] = [
     { title: "Library", href: "/library" },
     { title: "Coaching Centre", href: "/coaching-centre" },
     { title: "Training Classes", href: "/training" },
+    { title: "Syllabus", href: "/syllabus" },
     { title: "Question Paper", href: "/papers" },
 ];
 
 export function Navbar() {
     return (
-        <nav className="w-full bg-gray-100 border-y shadow-sm">
+        <nav className="w-full bg-gray-100/95 backdrop-blur-sm border-b shadow-sm sticky top-24 z-40">
             <div className="container mx-auto px-4">
                 <ul className="flex flex-wrap justify-center gap-6 py-3 text-sm font-medium text-gray-700">
                     {navItems.map((item) => (
