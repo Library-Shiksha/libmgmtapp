@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+  <!-- Wreath/Icon placeholder - Wreath style -->
+  <path d="M100 30 Q150 10 200 30 Q150 50 100 30" fill="none" stroke="#3b3b98" stroke-width="3"/>
+  <path d="M100 30 Q80 50 100 70 M200 30 Q220 50 200 70" fill="none" stroke="#3b3b98" stroke-width="2"/>
+  
+  <!-- Book Icon -->
+  <path d="M135 25 L150 35 L165 25 L165 45 L150 55 L135 45 Z" fill="#f1c40f"/>
+  
+  <!-- Main Text "Shiksha" in Hindi -->
+  <!-- Using paths for a more accurate look if possible, but text is safer for standard fonts -->
+  <text x="150" y="100" font-family="Arial, sans-serif" font-weight="bold" font-size="70" fill="#e74c3c" text-anchor="middle">शिक्षा</text>
+  
+  <!-- Subtext background -->
+  <rect x="50" y="115" width="200" height="25" rx="5" fill="#7f8c8d"/>
+  
+  <!-- Subtext -->
+  <text x="150" y="132" font-family="Arial, sans-serif" font-size="16" fill="white" font-weight="bold" text-anchor="middle">(An Innovative Class)</text>
+</svg>
