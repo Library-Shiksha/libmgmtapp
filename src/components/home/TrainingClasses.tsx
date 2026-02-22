@@ -41,13 +41,16 @@ export function TrainingClasses() {
                         <p className="text-md font-semibold text-gray-700">
                             {cls.time}
                         </p>
+                        <p className="text-sm text-gray-600 font-medium">
+                            (Monday to Saturday)
+                        </p>
                     </div>
                 ))}
             </div>
 
             <div className="text-center">
                 <p className="text-xl md:text-2xl font-bold text-gray-900 animate-blink">
-                    All batches will be starts from 01 Apr 2026
+                    All batches start 01 Apr 2026
                 </p>
             </div>
         </section>

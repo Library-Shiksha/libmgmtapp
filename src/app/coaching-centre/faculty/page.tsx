@@ -12,15 +12,15 @@ const facultyData = [
         education: "MA(Eng), BEd, Jiwaji University",
         experience: "27+ Years",
         expertise: ["Article", "Tenses"],
-        image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Rajesh"
+        image: "/coaching-head.png"
     },
     {
         name: "Mr Dharmvir Singh",
         role: "Senior Physics and Maths Faculty",
         education: "M.Sc. Physics, Jiwaji University",
         experience: "20 Years",
-        expertise: ["Semiconductor,Law of Motion"],
-        image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Anjali"
+        expertise: ["Semiconductor", "Law of Motion"],
+        image: "/dharmvir-singh.png"
     },
     {
         name: "Mr. Vikram Singh",
@@ -28,7 +28,7 @@ const facultyData = [
         education: "M.Tech Chemical Engineering, BITS Pilani",
         experience: "10+ Years",
         expertise: ["Organic Chemistry", "Physical Chemistry", "Atomic Structure"],
-        image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Vikram"
+        image: "/coaching-head.png"
     },
     {
         name: "Ms. Neha Verma",
@@ -36,7 +36,7 @@ const facultyData = [
         education: "M.Sc. Zoology, Punjab University",
         experience: "8+ Years",
         expertise: ["Cell Biology", "Genetics", "Human Physiology"],
-        image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Neha"
+        image: "/coaching-head.png"
     }
 ];
 
@@ -70,11 +70,11 @@ export default function FacultyPage() {
                             <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
                                 {/* Profile Image */}
                                 <div className="relative">
-                                    <div className="w-40 h-40 rounded-[2.5rem] bg-blue-50 border-4 border-white shadow-xl overflow-hidden flex items-center justify-center p-2 group-hover:scale-105 transition-transform duration-500">
+                                    <div className="w-40 aspect-[3/4] rounded-[2.5rem] bg-blue-50 border-4 border-white shadow-xl overflow-hidden flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
                                         <img
                                             src={faculty.image}
                                             alt={faculty.name}
-                                            className="w-full h-full object-cover"
+                                            className="w-full h-full object-cover object-top"
                                         />
                                     </div>
                                     <div className="absolute -bottom-2 -right-2 p-3 bg-blue-600 text-white rounded-2xl shadow-lg group-hover:rotate-12 transition-transform">
